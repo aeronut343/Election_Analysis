@@ -9,6 +9,11 @@
 import csv
 import os
 
+# initialize variables
+total_votes = 0
+candidate_options
+
+
 # read data
 file = os.path.join("Resources","election_results.csv")
 with open(file) as election_data:
@@ -20,6 +25,13 @@ with open(file) as election_data:
     # skip and print header row
     headers = next(file_reader)
     print(headers)
+
+    # extract data
+    for row in file_reader:
+        total_votes += 1
+
+    # print results
+    print(f'\nTotal Votes: {total_votes}\n')
 
 
 # write results

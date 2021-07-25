@@ -38,7 +38,7 @@ The results of the election by county are as follows:
   - Arapahoe
   - Denver
   - Jefferson
- - The results were:
+- The results were:
   - Arapahoe contributed 6.7% of the vote (24,801)
   - Denver contributed 82.8% of the vote (306,055)
   - Jefferson contributed 10.5% of the vote (38,855)
